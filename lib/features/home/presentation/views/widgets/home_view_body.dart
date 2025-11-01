@@ -12,13 +12,13 @@ class HomeViewBody extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 24),
       child: Column(
-        children: const [
+        children: [
           CustomAppBar(),
           FeaturedBooksListView(),
           SizedBox(height: 50),
           Align(
             alignment: Alignment.centerLeft,
-            child: Text('Best Seller', style: Styles.titleMedium),
+            child: Text('Best Seller', style: Styles.textStyle18),
           ),
           BestSellerListViewItem(),
         ],
