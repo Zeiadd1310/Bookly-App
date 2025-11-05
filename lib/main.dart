@@ -9,7 +9,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:bookly_app/core/utils/app_router.dart';
 
 void main() {
-  setup();
+  setupServiceLocator();
   runApp(const BooklyApp());
 }
 
