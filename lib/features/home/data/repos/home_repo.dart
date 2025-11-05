@@ -3,6 +3,6 @@ import 'package:bookly_app/features/home/data/models/books_model/books_model.dar
 import 'package:dartz/dartz.dart';
 
 abstract class HomeRepo {
-  Future<Either<Failures, List<BooksModel>>> fetchBestSellerBooks();
+  Future<Either<Failures, List<BooksModel>>> fetchNewestBooks();
   Future<Either<Failures, List<BooksModel>>> fetchFeaturedBooks();
 }
