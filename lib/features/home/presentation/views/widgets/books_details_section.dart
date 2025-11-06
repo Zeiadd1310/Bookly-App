@@ -15,7 +15,9 @@ class BookDetailsSection extends StatelessWidget {
       children: [
         Padding(
           padding: EdgeInsets.symmetric(horizontal: width * .19),
-          child: CustomBookImage(),
+          child: CustomBookImage(
+            imageUrl: 'https://wallpapercave.com/wp/wp1810636.jpg',
+          ),
         ),
 
         const SizedBox(height: 43),
